@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pigpio_ads1115"
+version = "0.0.1"
+authors = [
+  { name="", email="email@example.com" },
+]
+description = "Basic ads1115 implementation using the pigpio backend"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'pigpio',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Clam-/pigpio-ads1115"
+"Bug Tracker" = "https://github.com/Clam-/pigpio-ads1115/issues"
